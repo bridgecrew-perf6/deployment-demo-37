@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, "../public")));
 
 app.use(
   "/images/deploymentqq",
-  express.static(path.join(__dirname, "../images/qqwqqw.JPG"))
+  express.static(path.join(__dirname, "../images/download.jpg"))
 );
 
 //Endpoints
