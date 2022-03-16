@@ -8,12 +8,12 @@ app.use(express.json());
 //Middleware
 
 app.use(express.static(path.join(__dirname, "../public")));
+//app.use("/styles", express.static(path.join(__dirname, "../public/index.css")));
+
 app.use(
   "/images/deploymentqq",
   express.static(path.join(__dirname, "../images/qqwqqw.JPG"))
 );
-
-//app.use("/styles", express.static(path.join(__dirname, "../public/index.css")));
 
 //Endpoints
 // app.get("/", function (req, res) {
