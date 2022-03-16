@@ -10,6 +10,8 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "../public")));
 //app.use("/styles", express.static(path.join(__dirname, "../public/index.css")));
 
+app.use("/images", express.static(path.join(__dirname, "../images")));
+
 //Endpoints
 // app.get("/", function (req, res) {
 //   res.sendFile(path.join(__dirname, "../public"));
